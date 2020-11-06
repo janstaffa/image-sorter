@@ -35,29 +35,29 @@ def clicked():
             month = ""
             m = date.strftime("%m")
             if m == "01":
-                month = "Leden"
+                month = "January"
             elif m == "02":
-                month = "Únor"
+                month = "February"
             elif m == "03":
-                month = "Březen"
+                month = "March"
             elif m == "04":
-                month = "Duben"
+                month = "April"
             elif m == "05":
-                month = "Květen"
+                month = "May"
             elif m == "06":
-                month = "Červen"
+                month = "June"
             elif m == "07":
-                month = "Červenec"
+                month = "July"
             elif m == "08":
-                month = "Srpen"
+                month = "August"
             elif m == "09":
-                month = "Září"
+                month = "September"
             elif m == "10":
-                month = "Říjen"
+                month = "October"
             elif m == "11":
-                month = "Listopad"
+                month = "November"
             elif m == "12":
-                month = "Prosinec"
+                month = "December"
             else:
                 month = "INVALID MONTH"
 
